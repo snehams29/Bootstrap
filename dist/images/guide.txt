@@ -1,0 +1,92 @@
+
+
+
+Bootstarp is the css framework which is used widely inorder to achive the responsive design among all the device.
+It is has all the predefined classes which helps us to make the design quickly.
+The major part of bootstrap is the gridsystem which is achived with the help of following classes. the Gridsystem divides the browser window in responsive
+
+
+
+1)container:
+   It leaves 15px space from left to right.
+   
+2)row: 
+row always goes with in the container or container-fluid which is nothing but the fullwidth container.
+
+3)co-sm-*,co-md-*,co-xs-*,col-lg-* creates the columns with in the row as per the devices.
+
+Following is the explanation given below.
+
+    Xs (for phone  - screens less than 768px wide)
+	sm (for tablets  - sceerns equal to or greater than 768px wide)
+	md (for small laptops - screens equal to or greater than 992px wide)
+	lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+	
+Note:
+    1)A container class leaves out the 15px space from left to right
+	where as container-fluid class doesnot leave any kind of space.
+    ie.it takes fullwidth.
+    So it is wrong to have a class container with in cotainer-fluid or
+    container-fluid class with in container.If you do so ypu will not get the responsive design,so it is better to avoid it.
+
+
+
+     2)Every indivitual row's column addition must be 12.Let the row be inside any other column or let it be outside, Its addition must be 12 only.
+----------------------------------------------------
+Class for making list ie ul or ol
+ol or ul --> we use list-group
+li->list-group-item
+---------------------------------------------------------------------	
+
+Class for making nav (navigation bar)
+ul->nav nav-tabs or nav nav-pills :horizontal tabs or pills
+  if u want vertical use nav-stacked class along with nav nav-tabs or nav nav-pills
+
+note: There is no class for li tags while making tabs and pills
+----------------------------------------------------------------------
+
+Class for images
+--> img-circle
+-->img-rounded
+-->img-thumbnail
+-->img-responsive
+
+---------------------------------------
+class for buttons:
+    btn btn-info
+	btn btn-primary
+	btn btn-block:(block level button,it takes fullwidth of the block)
+	btn btn-success
+	btn btn-danger
+	btn btn-warning
+	btn btn-link
+    btn-sm,btn-lg,btn-md
+	-------------------------------------------------
+Class for alert boxes:
+ which gives out different background color with rounded corners
+ 
+  -->alert alert-success
+  -->alert alert-info
+  --->alert alert-danger
+  -->alert alert-warning
+ -------------------------------------------------
+ class for aligment of content or text
+  text-center,text-justify,text-right,text-left
+ ----------------------------------------------------
+ badge class:
+   It is used with span tag or <i> tags,  which helps to brigs out the attention and give more information in small circle
+----------------------------------------------------
+ well and jumbotron
+ well:light gray background where as jumbotron is with darker gray background  as compare to well
+ Juumbotron is used to catch out the attention of the customer or client,any thing written in jumbotron is bolder than the text written in well.
+ -----------------------------------------------------------
+ textual background classes:
+   bg-info
+   bg-success
+   bg-danger
+   bg-warning
+   bg-primary
+--------------------------------------------------------------------------------
+	
+
+ 
