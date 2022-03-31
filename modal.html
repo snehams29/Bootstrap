@@ -1,0 +1,76 @@
+<html>
+   <head> 
+       <title>modal</title>
+	   <link href="dist/css/bootstrap.css" rel="stylesheet">
+		<script src="dist/js/jquery.min.js"></script>
+		<script src="dist/js/bootstrap.js"></script>
+   </head>
+	<body>
+		<div class="container">
+		<div class="row">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">
+		<button type="button" class="btn btn-primary" data-toggle="modal"
+		data-target="#mymodal">open modal</button>
+	</div>
+			</div><!---row closses--->
+			<div class="modal-fade" id="mymodal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+							<div class="modal-header" "text-center">Signup
+							<a href=""data-dismiss="modal" class="close">&times;</a>
+							</div>
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-sm-2"></div>
+									<div class="col-sm-8">
+										<form class="form-horizontal" action="#" METHOD="POST">
+											<div class="form-group">
+											<label>Name</label>
+											<input type="text" class="form-control" placeholder="enter your name">
+										</div>
+							
+							<div class="form-group">
+											<label>email</label>
+											<input type="email" class="form-control" placeholder="enter your email">
+										</div>
+										
+							<div class="form-group">
+											<label>mobile</label>
+											<input type="tel" class="form-control" placeholder="enter your mobile">
+										</div>
+										
+							<div class="form-group">
+									<label>address</label>
+									<textarea class="form-control" placeholder="enter your mobile"></textarea>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-primary">signup</button>
+									<button type="clear" class="btn btn-danger">clear</button>
+								</div>
+							</form>
+						   </div>
+						   <div class="col-sm-2"></div>
+						   </div><!---outer row within modal body--->
+						   <div class="modal-footer">
+							<Button type="button" class="btn btn-danger" data-dismiss="modal"></button>
+					
+							</div><!---modal content closses-->
+						</div><!-----modal dialog closses--->
+					</div><!----modal closses-->
+			</div><!---container closses--->
+					        <div class="container">
+                            <div class="col-sm-4">
+							<button type="button" data-toggle="collapse"
+							data-target="#div1" class="btn btn-success btn-block">collapse effect</button>
+							 <div class="collapse" id="div1">
+							 hello this is the collapse effect which is also need jquery and bootstrap js files
+							  </div>
+							 </div>
+						<div class="col-sm-4"></div>
+						<div class="col-sm-4"></div>
+					</div>
+					</div><!----container closses---->
+				 </body>
+</html>
